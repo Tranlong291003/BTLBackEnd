@@ -1,0 +1,59 @@
+﻿@model Shop.Model.Entities.Product
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Administrator/Views/Shared/_Layout.cshtml";
+}
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-body">
+            <h1><center><b>Cập Nhật loại tour</b></center></h1>
+            <form action="/Administrator/Product/Edit" method="post" class="row g-3">
+                <div class="col-12">
+                    <label asp-for="Id" class="form-label">ID</label>
+                    <input asp-for="Id" class="form-control" value="@Model.Id" />
+
+                </div>
+                <div class="col-12">
+                    <label asp-for="Name" class="form-label">Tên tour</label>
+                    <input asp-for="Name" class="form-control" value="@Model.Name" />
+                </div>
+                <div class="col-12">
+                    <label asp-for="Price" class="form-label">Giá</label>
+                    <input asp-for="Price" class="form-control" value="@Model.Price" />
+                </div>
+                <div class="col-12">
+                    <label asp-for="Promotion" class="form-label">Giá khuyến mãi</label>
+                    <input asp-for="Promotion" class="form-control" value="@Model.Promotion" />
+                </div>
+                <div class="col-12">
+                    <label asp-for="DaySubmit" class="form-label">Ngày thêm</label>
+                    <input asp-for="DaySubmit" class="form-control" value="@Model.DaySubmit" />
+                </div>
+                <div class="col-12">
+                    <label asp-for="Amountofpeople" class="form-label">Số người</label>
+                    <input asp-for="Amountofpeople" class="form-control" value="@Model.Amountofpeople"/>
+                </div>
+                <div class="col-12">
+                    <label asp-for="Day" class="form-label">Số Ngày</label>
+                    <input asp-for="Day" class="form-control" value="@Model.Day"/>
+                </div>
+                <div class="col-12">
+                    <label asp-for="Evaluate" class="form-label">Đánh Giá</label>
+                    <input asp-for="Evaluate" class="form-control"value="@Model.Evaluate" />
+                </div>
+                <div class="col-12">
+                    <label asp-for="Image" class="form-label">Ảnh</label>
+                    <input asp-for="Image" class="form-control" value="@Model.Image" />
+                </div>
+                <div class="col-12">
+                    <label asp-for="Description" class="form-label">Mô tả</label>
+                    <input asp-for="Description" class="form-control" value="@Model.Description" />
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Cập nhật</button>
+                    <button type="reset" class="btn btn-secondary">Hủy</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

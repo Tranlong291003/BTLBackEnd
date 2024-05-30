@@ -1,0 +1,303 @@
+﻿@model Tuple<Shop.Model.Entities.Product, List<Shop.Model.Entities.Product>>
+@{
+	ViewData["Title"] = "Details";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="parallax_window_in" data-parallax="scroll" data-image-src="/img/@Model.Item1.Image" data-natural-width="1400" data-natural-height="470">
+	<div id="sub_content_in">
+		<div id="animate_intro">
+			<h1>Chào mừng bạn đến với</h1>
+			<b><h1>@Model.Item1.Name</h1></b>
+		</div>
+	</div>
+</section>
+<!-- End section -->
+<!-- End SubHeader ============================================ -->
+
+<section class="wrapper">
+	|q	
+	<div class="divider_border"></div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+
+				<div class="owl-carousel add_bottom_15">
+					<div class="item">
+						<img src="/img/@Model.Item1.MoreImage" alt="">
+					</div>
+					<div class="item">
+						<img src="/img/@Model.Item1.Image" alt="">
+					</div>
+				</div>
+
+				<ul class="nav nav-tabs">
+				</ul>
+
+				<div class="tab-content">
+					<div class="tab-pane fade in active" id="tab_1">
+						<h1>Giới thiệu</h1>
+						<p>@Model.Item1.Description</p>
+						<h1>Lợi ích khi đi du lịch</h1>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="feature-box">
+									<div class="feature-box-icon">
+										<i class="icon-ok-4"></i>
+									</div>
+
+									<div class="feature-box-info">
+
+										<h4>
+											khả năng ứng biến với mọi tình huống
+										</h4>
+										<p>Cho dù có lên kế hoạch kỹ lưỡng thì chuyến đi vẫn có thể sẽ gặp phải những tình huống mà bạn không ngờ tới như: thời tiết thay đổi, hỏng xe, quên đồ, đi lạc, bị “chặt chém”,... Hoặc đối với một chuyến du lịch theo tour, bạn có thể bị thất vọng về hành xử của hướng dẫn viên, chất lượng dịch vụ và những người trong đoàn… Qua những điều không may bất chợt ấy, bạn sẽ rèn luyện khả năng ứng biến với mọi tình huống và tăng thêm vốn sống để vững vàng hơn với mọi bất trắc trên đường đời. </p>
+									</div>
+								</div>
+								<div class="feature-box">
+									<div class="feature-box-icon">
+										<i class="icon-ok-4"></i>
+									</div>
+									<div class="feature-box-info">
+										<h4>
+											Những kỷ niệm khó quên
+										</h4>
+										<p>Việc đi du lịch là sẽ mang lại cho bạn những kỷ niệm khó quên trên từng con đường, góc quán, cả không khí và hương vị món ăn</p>
+									</div>
+								</div>
+							</div>
+							<!-- End col -->
+
+							<div class="col-md-6">
+								<div class="feature-box">
+									<div class="feature-box-icon">
+										<i class="icon-ok-4"></i>
+									</div>
+									<div class="feature-box-info">
+										<h4>Dạy bạn cách sống hướng ngoại</h4>
+										<p>Giúp bạn bạn sẽ tương tác, tham gia nhiều hoạt động thú vị và có cơ hội tiếp xúc, làm quen với nhiều người. Qua đó, bạn sẽ cảm thấy thoải mái, vui vẻ hơn trong việc giao tiếp. Đây là cách sống hướng ngoại mà một chuyến du lịch có thể dạy bạn.  </p>
+									</div>
+								</div>
+								<div class="feature-box">
+									<div class="feature-box-icon">
+										<i class="icon-ok-4"></i>
+									</div>
+									<div class="feature-box-info">
+										<h4>Giúp bạn thấu hiểu bản thân</h4>
+										<p>đi du lịch không chỉ giúp bạn khám phá được thế giới bên ngoài mà còn là dịp để bạn lắng nghe chính mình và thấu hiểu bản thân. Nếu cuộc sống thường ngày cuốn bạn đi với bao bộn bề lo toan thì du lịch là lúc để bạn sống chậm, nghĩ nhiều hơn về những mong muốn, hoài bão của bản thân và hiểu rõ hơn về những gì khiến mình hạnh phúc.  </p>
+									</div>
+								</div>
+							</div>
+							<!-- End col -->
+						</div>
+						<!-- End row -->
+
+						<hr>
+
+
+
+					</div>
+					<!-- End tab_1 -->
+
+					<div class="tab-pane fade" id="tab_2">
+
+						<div id="summary_review">
+							<div class="review_score">
+								<span>8,9</span>
+							</div>
+							<div class="review_score_2">
+								<h4>Fabulous  <span>(Based on 34 reviews)</span></h4>
+								<p>
+									Vero consequat cotidieque ad eam. Ea duis errem qui, impedit blandit sed eu. Ius diam vivendo ne.
+								</p>
+							</div>
+						</div>
+						<!-- End review summary -->
+
+						<div class="reviews-container">
+
+							<div class="review-box clearfix">
+								<figure class="rev-thumb">
+									<img src="~/img/avatar1.jpg" alt="">
+								</figure>
+								<div class="rev-content">
+									<div class="rating">
+										<i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star-empty"></i>
+									</div>
+									<div class="rev-info">
+										Admin – April 03, 2016:
+									</div>
+									<div class="rev-text">
+										<p>
+											Sed eget turpis a pede tempor malesuada. Vivamus quis mi at leo pulvinar hendrerit. Cum sociis natoque penatibus et magnis dis
+										</p>
+									</div>
+								</div>
+							</div>
+							<!-- End review-box -->
+
+							<div class="review-box clearfix">
+								<figure class="rev-thumb">
+									<img src="~/img/avatar2.jpg" alt="">
+								</figure>
+								<div class="rev-content">
+									<div class="rating">
+										<i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star-empty"></i>
+									</div>
+									<div class="rev-info">
+										Ahsan – April 01, 2016:
+									</div>
+									<div class="rev-text">
+										<p>
+											Sed eget turpis a pede tempor malesuada. Vivamus quis mi at leo pulvinar hendrerit. Cum sociis natoque penatibus et magnis dis
+										</p>
+									</div>
+								</div>
+							</div>
+							<!-- End review-box -->
+
+							<div class="review-box clearfix">
+								<figure class="rev-thumb">
+									<img src="~/img/avatar3.jpg" alt="">
+								</figure>
+								<div class="rev-content">
+									<div class="rating">
+										<i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star-empty"></i>
+									</div>
+									<div class="rev-info">
+										Sara – March 31, 2016:
+									</div>
+									<div class="rev-text">
+										<p>
+											Sed eget turpis a pede tempor malesuada. Vivamus quis mi at leo pulvinar hendrerit. Cum sociis natoque penatibus et magnis dis
+										</p>
+									</div>
+								</div>
+							</div>
+							<!-- End review-box -->
+
+						</div>
+						<!-- End review-container -->
+
+						<hr>
+
+						<div class="add-review">
+							<h4>Leave a Review</h4>
+							<div id="message-review"></div>
+						</div>
+
+					</div>
+					<!-- End tab_2 -->
+
+					<div class="tab-pane fade" id="tab_3">
+						<div id="map"></div>
+						<!-- end map-->
+
+						<div class="box_map">
+							<i class="icon_set_1_icon-25"></i>
+							<h4>By Train/tube</h4>
+							<p>Per cu esse assentior delicatissimi, qui adipiscing dissentiunt mediocritatem in, dicat voluptaria no eam. No est alia eloquentiam. Has rebum vulputate adversarium no. Pro cibo delenit scripserit id.</p>
+						</div>
+
+
+						<div class="box_map">
+							<i class="icon_set_1_icon-26"></i>
+							<h4>By bus</h4>
+							<p>Per cu esse assentior delicatissimi, qui adipiscing dissentiunt mediocritatem in, dicat voluptaria no eam. No est alia eloquentiam. Has rebum vulputate adversarium no. Pro cibo delenit scripserit id.</p>
+						</div>
+
+						<div class="box_map">
+							<i class="icon_set_1_icon-21"></i>
+							<h4>By Taxi/cabs</h4>
+							<p>Per cu esse assentior delicatissimi, qui adipiscing dissentiunt mediocritatem in, dicat voluptaria no eam. No est alia eloquentiam. Has rebum vulputate adversarium no. Pro cibo delenit scripserit id.</p>
+						</div>
+
+					</div>
+					<!-- End tab_3 -->
+				</div>
+				<!-- End tabs -->
+			</div>
+			<!-- End Col -->
+
+			<aside class="col-md-4">
+				<div class="box_style_1">
+					<div class="price">
+						<strong>@Model.Item1.Price</strong><small>VND</small><br />
+						<h2>Id: @Model.Item1.Id</h2>
+					</div>
+
+					<ul class="list_ok">
+
+							<li>Số ngày: @Model.Item1.Day</li>
+
+							<li>Số người: @Model.Item1.Amountofpeople</li>
+						<li>đánh giá @Model.Item1.Evaluate⭐</li>
+					</ul>
+					<small>Miên phí cho trẻ em dưới 8 tuổi</small>
+				</div>
+
+				<center><button class="btn btn-primary" onclick="location.href='/BookTour/Create'"/>Book Ngay</button></center>
+
+				<div>
+					<a href="#0" class="btn_outline">Hoặc gọi cho tôi</a>
+					<a href="tel://004542344599" id="phone_2"><i class="icon_set_1_icon-91"></i>+84 889 112 490</a>
+				</div>
+
+
+			</aside>
+		</div>
+		<!-- End row -->
+	</div>
+	<!-- End container -->
+</section>
+<!-- End section -->
+
+<div class="container margin_30">
+	<h3 class="second_title">Tours liên quan</h3>
+	<div class="carousel add_bottom_30">
+		@foreach (var item in Model.Item2)
+		{
+				<div>
+				<div class="img_wrapper">
+					<div class="price_grid">
+						<sup>@item.Price VND</sup>
+					</div>
+					<!-- End tools i-->
+					<div class="img_container">
+								<a onclick="location .href='/Home/ProductDetails/@item.Id'">
+
+							<img src="/img/@item.Image" width="800" height="533" class="img-responsive" alt="">
+							<div class="short_info">
+								<h3>@item.Name</h3>
+								<em>Số ngày: @item.Day</em>
+								<div class="score_wp">
+										<div class="score">@item.Evaluate⭐</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<!-- End img_wrapper -->
+			</div>
+		}
+	</div>
+	<!-- End carousel -->
+</div>
+<!-- End container -->
+<!-- COMMON SCRIPTS -->
+<script src="~/js/jquery-2.2.4.min.js"></script>
+<script src="~/js/common_scripts_min.js"></script>
+<script src="~/assets/validate.js"></script>
+<script src="~/js/jquery.tweet.min.js"></script>
+<script src="~/js/functions.js"></script>
+
+<!-- SPECIFIC SCRIPTS -->
+<script src="~/js/bootstrap-datepicker.js"></script>
+<script>
+	$('#date_pick').datepicker();
+</script>
+<script src="~/js/sidebar_carousel_detail_page_func.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script src="~/js/map.js"></script>
+<script src="~/js/infobox.js"></script>

@@ -1,0 +1,86 @@
+﻿@model Tuple<List<Shop.Model.Entities.Post>>
+@{
+	ViewData["Title"] = "List";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<section class="parallax_window_in" data-parallax="scroll" data-image-src="https://img.lovepik.com/photo/40030/3562.jpg_wh860.jpg" data-natural-width="1400" data-natural-height="470">
+	<div id="sub_content_in">
+		<div id="animate_intro">
+			<h1>Giới thiệu Tours du lịch</h1>
+		</div>
+	</div>
+</section>
+<!-- End section -->
+<!-- End SubHeader ============================================ -->
+
+<section class="wrapper">
+	<div class="divider_border_gray"></div>
+	<div id="filters" class="clearfix">
+		<div id="sort_filters">
+			<select name="orderby" class="selectbox">
+				<option value="popularity">
+					Sắp xếp theo mức độ phổ biến
+				</option>
+				<option value="rating">
+					Sắp xếp theo Xếp hạng trung bình
+				</option>
+				<option value="date" selected='selected'>
+					Sắp xếp theo độ mới
+				</option>
+				<option value="price">
+					Sắp xếp theo Giá: Thấp đến Cao
+				</option>
+				<option value="price-desc">
+					Sắp xếp theo Giá: Cao đến Thấp
+				</option>
+			</select>
+		</div>
+		<div id="view_change">
+			<a href="grid.html" class="grid_bt"></a>
+			<a href="list.html" class="list_bt"></a>
+		</div>
+	</div>
+	<!-- End filters -->
+
+	<div class="container">
+		@foreach (var item in Model.Item1)
+		{
+				<div class="row strip_list wow fadeIn animated" data-wow-delay="0.2s">
+					<div class="col-md-5">
+						<div class="img_wrapper">
+							<div class="ribbon">
+								<span>Phổ biến</span>
+							</div>
+
+							<div class="img_container">
+									<a onclick="location .href='/Home/PostDetails/@item.Id'">
+									<img src="~/img/@item.Image" width="800" height="533" class="img-responsive" alt="">
+									<div class="short_info">
+
+										<div class="score_wp">
+
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<!-- End img_wrapper -->
+					</div>
+					<div class="col-md-7">
+						<h3>@item.Name</h3>
+						<p>@item.Description</p>
+						<p>
+							<a href="/Home/PostDetails/@item.Id" class="btn_1">xem thêm</a>
+						</p>
+					</div>
+				</div>
+				<!-- End strip list -->
+		}
+	</div>
+	<!-- End container -->
+</section>
+<!-- End section -->
+

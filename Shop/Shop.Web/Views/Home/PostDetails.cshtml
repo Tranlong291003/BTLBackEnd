@@ -1,0 +1,221 @@
+﻿@model Tuple<Shop.Model.Entities.Post, List<Shop.Model.Entities.Post>>
+@{
+	ViewData["Title"] = "PostDetails";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!--[if lte IE 8]>
+	<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a>.</p>
+<![endif]-->
+<link href="~/css/animate.min.css" rel="stylesheet">
+<link href="~/css/bootstrap.min.css" rel="stylesheet">
+<link href="~/css/style.css" rel="stylesheet">
+<link href="~/css/responsive.css" rel="stylesheet">
+<link href="~/css/menu.css" rel="stylesheet">
+<link href="~/css/icon_fonts/css/all_icons.min.css" rel="stylesheet">
+
+<!-- YOUR CUSTOM CSS -->
+<link href="~/css/custom.css" rel="stylesheet">
+
+<!-- SubHeader =============================================== -->
+<section class="parallax_window_in" data-parallax="scroll" data-image-src="https://img.lovepik.com/photo/40030/3562.jpg_wh860.jpg" data-natural-width="1400" data-natural-height="470">
+	<div id="sub_content_in">
+		<div id="animate_intro">
+			<h1>Giới thiệu tour du lịch</h1>
+		</div>
+	</div>
+</section>
+<!-- End section -->
+<!-- End SubHeader ============================================ -->
+
+<section class="wrapper">
+	<div class="divider_border"></div>
+
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-9 add_bottom_15">
+				<div class="bloglist singlepost">
+					<div class="wow fadeIn">
+						<img alt="" class="img-responsive img-thumbnail" src="/img/@Model.Item1.Image">
+
+						<div class="singlepost_title">
+							<h4>Giới thiệu về @Model.Item1.Name.</h4>
+						</div>
+
+						<div class="postmeta">
+
+							<ul class="list-inline">
+								<li>
+									<a href="#"><i class="icon_folder-alt"></i> bộ sưu tập</a>
+								</li>
+								<li>
+									<a href="#"><i class="icon_clock_alt"></i> 23/12/2015</a>
+								</li>
+								<li>
+									<a href="#"><i class="icon_pencil-edit"></i> Admin</a>
+								</li>
+								<li>
+									<a href="#"><i class="icon_comment_alt"></i> (14) Bình luận</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="post-content">
+							<div class="dropcaps">
+								<p>@Model.Item1.Description</p>
+							</div>
+
+							<p>@Model.Item1.Content</p>
+						</div>
+						<!-- end post -->
+
+					</div>
+				</div>
+				<!-- end single-post -->
+
+				<div class="blog-list row">
+					<div class="col-md-12">
+						<hr>
+
+						<div class="comments">
+							<div class="widget-title">
+								<h4>(3) Comments - Our New Office Furniture </h4>
+							</div>
+							<!-- end widget-title -->
+							<div class="media">
+								<div class="media-left">
+									<a href="#">
+										<img class="media-object" src="/img/blog/team_01.jpg" alt="">
+									</a>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">
+										John DOE
+										<span class="time-comment">
+											<small>21 Jun 2015</small>
+											<a class="comment-reply" href="#"><small>Reply</small></a>
+										</span><!-- end time-comment -->
+									</h4>
+									<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempusviverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+								</div>
+							</div>
+							<!-- end media -->
+
+							<div class="media reply-comment">
+								<div class="media-left">
+									<a href="#">
+										<img class="media-object" src="/img/blog/team_03.jpg" alt="">
+									</a>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">
+										John DOE
+										<span class="time-comment">
+											<small>21 Jun 2015</small>
+											<a class="comment-reply" href="#"><small>Reply</small></a>
+										</span><!-- end time-comment -->
+									</h4>
+									<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempusviverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+								</div>
+							</div>
+							<!-- end media -->
+
+							<div class="media">
+								<div class="media-left">
+									<a href="#">
+										<img class="media-object" src="/img/blog/team_02.jpg" alt="">
+									</a>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">
+										John DOE
+										<span class="time-comment">
+											<small>21 Jun 2015</small>
+											<a class="comment-reply" href="#"><small>Reply</small></a>
+										</span><!-- end time-comment -->
+									</h4>
+									<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempusviverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+								</div>
+							</div>
+							<!-- end media -->
+						</div>
+
+						<hr>
+
+						<h4>Leave a Comment</h4>
+
+						<form>
+							<div class="form-group">
+								<input type="text" name="name" id="name2" class="form-control" placeholder="Name">
+							</div>
+							<div class="form-group">
+								<input type="text" name="email" id="email2" class="form-control" placeholder="Email">
+							</div>
+							<div class="form-group">
+								<input type="text" name="email" id="website3" class="form-control" placeholder="Website">
+							</div>
+							<div class="form-group">
+								<textarea class="form-control" name="comments" id="comments2" rows="6" placeholder="Message Below"></textarea>
+							</div>
+							<div class="form-group">
+								<button type="submit" id="submit2" class="btn_1"> Submit</button>
+							</div>
+						</form>
+					</div>
+					<!-- end col-->
+				</div>
+				<!-- end blog-list -->
+			</div>
+
+
+			<aside id="sidebar" class="col-md-3">
+				<div class="widget">
+					<form>
+						<div class="form-group">
+							<input type="text" name="search" id="search" class="form-control" placeholder="Tìm kiếm...">
+						</div>
+						<button type="submit" id="submit" class="btn_1"> Tìm kiếm</button>
+					</form>
+				</div>
+				<!-- end widget -->
+
+				<div class="widget">
+					<div class="widget-title">
+						<h4>Bài viết Được xem nhiều nhất</h4>
+					</div>
+
+					<ul class="comments-list">
+						@foreach (var item in Model.Item2)
+						{
+							<li>
+								<div class="alignleft">
+									<img src="/img/@item.Image" onclick="location .href='/Home/PostDetails/@item.Id'" alt="">
+								</div>
+								<h3><a href="#" title="">@item.Name</a></h3
+										<a class="post-link" href="">nhấn vào để xem thêm</a>
+							</li>
+
+						}
+
+					</ul>
+					<!-- end blog list -->
+				</div>
+				<!-- end widget -->
+
+
+			</aside>
+			<!-- end sidebar -->
+		</div>
+		<!-- end row -->
+	</div>
+	<!-- End container -->
+</section>
+<!-- End section -->
+<!-- COMMON SCRIPTS -->
+<script src="~/js/jquery-2.2.4.min.js"></script>
+<script src="~/js/common_scripts_min.js"></script>
+<script src="~/assets/validate.js"></script>
+<script src="~/js/jquery.tweet.min.js"></script>
+<script src="~/js/functions.js"></script>

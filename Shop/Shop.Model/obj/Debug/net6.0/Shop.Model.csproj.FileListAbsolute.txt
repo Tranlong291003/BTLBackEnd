@@ -1,0 +1,56 @@
+C:\Users\ASUS\Desktop\BTL\New folder\Shop\Shop.Model\bin\Debug\net6.0\Shop.Model.deps.json
+C:\Users\ASUS\Desktop\BTL\New folder\Shop\Shop.Model\bin\Debug\net6.0\Shop.Model.runtimeconfig.json
+C:\Users\ASUS\Desktop\BTL\New folder\Shop\Shop.Model\bin\Debug\net6.0\Shop.Model.dll
+C:\Users\ASUS\Desktop\BTL\New folder\Shop\Shop.Model\bin\Debug\net6.0\Shop.Model.pdb
+C:\Users\ASUS\Desktop\BTL\New folder\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\BTL\New folder\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\BTL\New folder\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\BTL\New folder\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\BTL\New folder\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\BTL\New folder\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.dll
+C:\Users\ASUS\Desktop\BTL\New folder\Shop\Shop.Model\obj\Debug\net6.0\refint\Shop.Model.dll
+C:\Users\ASUS\Desktop\BTL\New folder\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.pdb
+C:\Users\ASUS\Desktop\BTL\New folder\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\BTL\New folder\Shop\Shop.Model\obj\Debug\net6.0\ref\Shop.Model.dll
+C:\Users\ASUS\Desktop\New folder\Shop\Shop.Model\bin\Debug\net6.0\Shop.Model.deps.json
+C:\Users\ASUS\Desktop\New folder\Shop\Shop.Model\bin\Debug\net6.0\Shop.Model.runtimeconfig.json
+C:\Users\ASUS\Desktop\New folder\Shop\Shop.Model\bin\Debug\net6.0\Shop.Model.dll
+C:\Users\ASUS\Desktop\New folder\Shop\Shop.Model\bin\Debug\net6.0\Shop.Model.pdb
+C:\Users\ASUS\Desktop\New folder\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\New folder\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\New folder\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\New folder\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\New folder\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\New folder\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.dll
+C:\Users\ASUS\Desktop\New folder\Shop\Shop.Model\obj\Debug\net6.0\refint\Shop.Model.dll
+C:\Users\ASUS\Desktop\New folder\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.pdb
+C:\Users\ASUS\Desktop\New folder\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\New folder\Shop\Shop.Model\obj\Debug\net6.0\ref\Shop.Model.dll
+C:\Users\ASUS\Desktop\bestours_v.1.1\Shop\Shop.Model\bin\Debug\net6.0\Shop.Model.deps.json
+C:\Users\ASUS\Desktop\bestours_v.1.1\Shop\Shop.Model\bin\Debug\net6.0\Shop.Model.runtimeconfig.json
+C:\Users\ASUS\Desktop\bestours_v.1.1\Shop\Shop.Model\bin\Debug\net6.0\Shop.Model.dll
+C:\Users\ASUS\Desktop\bestours_v.1.1\Shop\Shop.Model\bin\Debug\net6.0\Shop.Model.pdb
+C:\Users\ASUS\Desktop\bestours_v.1.1\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\bestours_v.1.1\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\bestours_v.1.1\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\bestours_v.1.1\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\bestours_v.1.1\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\bestours_v.1.1\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.dll
+C:\Users\ASUS\Desktop\bestours_v.1.1\Shop\Shop.Model\obj\Debug\net6.0\refint\Shop.Model.dll
+C:\Users\ASUS\Desktop\bestours_v.1.1\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.pdb
+C:\Users\ASUS\Desktop\bestours_v.1.1\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\bestours_v.1.1\Shop\Shop.Model\obj\Debug\net6.0\ref\Shop.Model.dll
+C:\Users\ASUS\Desktop\BTL\Shop\Shop.Model\bin\Debug\net6.0\Shop.Model.deps.json
+C:\Users\ASUS\Desktop\BTL\Shop\Shop.Model\bin\Debug\net6.0\Shop.Model.runtimeconfig.json
+C:\Users\ASUS\Desktop\BTL\Shop\Shop.Model\bin\Debug\net6.0\Shop.Model.dll
+C:\Users\ASUS\Desktop\BTL\Shop\Shop.Model\bin\Debug\net6.0\Shop.Model.pdb
+C:\Users\ASUS\Desktop\BTL\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\BTL\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\BTL\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\BTL\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\BTL\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\BTL\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.dll
+C:\Users\ASUS\Desktop\BTL\Shop\Shop.Model\obj\Debug\net6.0\refint\Shop.Model.dll
+C:\Users\ASUS\Desktop\BTL\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.pdb
+C:\Users\ASUS\Desktop\BTL\Shop\Shop.Model\obj\Debug\net6.0\Shop.Model.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\BTL\Shop\Shop.Model\obj\Debug\net6.0\ref\Shop.Model.dll

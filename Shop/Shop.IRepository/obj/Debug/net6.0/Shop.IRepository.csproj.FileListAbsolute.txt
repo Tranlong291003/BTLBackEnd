@@ -1,0 +1,60 @@
+D:\New folder\Shop\Shop.IRepository\bin\Debug\net6.0\Shop.IRepository.deps.json
+D:\New folder\Shop\Shop.IRepository\bin\Debug\net6.0\Shop.IRepository.dll
+D:\New folder\Shop\Shop.IRepository\bin\Debug\net6.0\Shop.IRepository.pdb
+D:\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.csproj.AssemblyReference.cache
+D:\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.AssemblyInfoInputs.cache
+D:\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.AssemblyInfo.cs
+D:\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.csproj.CoreCompileInputs.cache
+D:\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.dll
+D:\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\refint\Shop.IRepository.dll
+D:\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.pdb
+D:\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\ref\Shop.IRepository.dll
+C:\Users\ASUS\Desktop\BTL\New folder\Shop\Shop.IRepository\bin\Debug\net6.0\Shop.IRepository.deps.json
+C:\Users\ASUS\Desktop\BTL\New folder\Shop\Shop.IRepository\bin\Debug\net6.0\Shop.IRepository.dll
+C:\Users\ASUS\Desktop\BTL\New folder\Shop\Shop.IRepository\bin\Debug\net6.0\Shop.IRepository.pdb
+C:\Users\ASUS\Desktop\BTL\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\BTL\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\BTL\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\BTL\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\BTL\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\BTL\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.dll
+C:\Users\ASUS\Desktop\BTL\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\refint\Shop.IRepository.dll
+C:\Users\ASUS\Desktop\BTL\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.pdb
+C:\Users\ASUS\Desktop\BTL\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\ref\Shop.IRepository.dll
+C:\Users\ASUS\Desktop\New folder\Shop\Shop.IRepository\bin\Debug\net6.0\Shop.IRepository.deps.json
+C:\Users\ASUS\Desktop\New folder\Shop\Shop.IRepository\bin\Debug\net6.0\Shop.IRepository.dll
+C:\Users\ASUS\Desktop\New folder\Shop\Shop.IRepository\bin\Debug\net6.0\Shop.IRepository.pdb
+C:\Users\ASUS\Desktop\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.dll
+C:\Users\ASUS\Desktop\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\refint\Shop.IRepository.dll
+C:\Users\ASUS\Desktop\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.pdb
+C:\Users\ASUS\Desktop\New folder\Shop\Shop.IRepository\obj\Debug\net6.0\ref\Shop.IRepository.dll
+C:\Users\ASUS\Desktop\bestours_v.1.1\Shop\Shop.IRepository\bin\Debug\net6.0\Shop.IRepository.deps.json
+C:\Users\ASUS\Desktop\bestours_v.1.1\Shop\Shop.IRepository\bin\Debug\net6.0\Shop.IRepository.dll
+C:\Users\ASUS\Desktop\bestours_v.1.1\Shop\Shop.IRepository\bin\Debug\net6.0\Shop.IRepository.pdb
+C:\Users\ASUS\Desktop\bestours_v.1.1\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\bestours_v.1.1\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\bestours_v.1.1\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\bestours_v.1.1\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\bestours_v.1.1\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\bestours_v.1.1\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.dll
+C:\Users\ASUS\Desktop\bestours_v.1.1\Shop\Shop.IRepository\obj\Debug\net6.0\refint\Shop.IRepository.dll
+C:\Users\ASUS\Desktop\bestours_v.1.1\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.pdb
+C:\Users\ASUS\Desktop\bestours_v.1.1\Shop\Shop.IRepository\obj\Debug\net6.0\ref\Shop.IRepository.dll
+C:\Users\ASUS\Desktop\BTL\Shop\Shop.IRepository\bin\Debug\net6.0\Shop.IRepository.deps.json
+C:\Users\ASUS\Desktop\BTL\Shop\Shop.IRepository\bin\Debug\net6.0\Shop.IRepository.dll
+C:\Users\ASUS\Desktop\BTL\Shop\Shop.IRepository\bin\Debug\net6.0\Shop.IRepository.pdb
+C:\Users\ASUS\Desktop\BTL\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\BTL\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\BTL\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\BTL\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\BTL\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\BTL\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.dll
+C:\Users\ASUS\Desktop\BTL\Shop\Shop.IRepository\obj\Debug\net6.0\refint\Shop.IRepository.dll
+C:\Users\ASUS\Desktop\BTL\Shop\Shop.IRepository\obj\Debug\net6.0\Shop.IRepository.pdb
+C:\Users\ASUS\Desktop\BTL\Shop\Shop.IRepository\obj\Debug\net6.0\ref\Shop.IRepository.dll

@@ -1,0 +1,112 @@
+﻿
+@{
+    ViewData["Title"] = "About";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- SubHeader =============================================== -->
+<section class="parallax_window_in" data-parallax="scroll" data-image-src="https://img.lovepik.com/photo/40030/3562.jpg_wh860.jpg" data-natural-width="1400" data-natural-height="470">
+	<div id="sub_content_in">
+		<div id="animate_intro">
+			<h1>Giới thiệu Bestours</h1>
+		</div>
+	</div>
+</section>
+<!-- End section -->
+<!-- End SubHeader ============================================ -->
+
+<section class="wrapper">
+	<div class="divider_border"></div>
+
+	<div class="container">
+		<div class="main_title">
+			<h2>Một số <span>Thông tin </span>về Bestour</h2>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-6">
+				<h3>Đôi nét về BesTour du lịch nổi tiếng </h3>
+				<p>Là một trong những tour du lịch hàng đầu có nhiều kinh nghiệm hoạt động, tự hào đã chia sẻ nhiều thông tin hữu ích đến cộng đồng du lịch và cung cấp rất nhiều dịch vụ tiện ích giúp chuyến đi của du khách được trọn vẹn hơn. Trải qua thời gian hình thành và phát triển, tour du lịch đã có lượng đọc giả ổn định với số lần truy cập rất cao. Phần lớn mọi người vào đây để tìm kiếm các kinh nghiệm du lịch, cập nhật các điểm đến mới, sự kiện cũng như dịch vụ du lịch liên quan,… để thêm hành trang cho những chuyến đi. Đến nay, đã trở thành một trong những địa chỉ đáng tin cậy của nhiều du khách. Vì sao nên chọn tour du lịch để tìm kiếm thông tin? Hẳn nhiều người sẽ thắc mắc tại sao có rất nhiều nơi chia sẻ kinh nghiệm du lịch mà tour du lịch lại được bạn đọc đón nhận đến vậy. Dưới đây là những lý do giải thích cho điều này: Đầu tiên là giao diện website đẹp mắt, bố cục hợp lý, font chữ dễ nhìn và nội dung đi kèm đúng chuyên mục đáp ứng đúng nhu cầu tìm kiếm của bạn đọc. Đặc biệt là tốc độ truy cập nhanh chóng, không bắt bạn đọc phải chờ đợi lâu. Cung cấp đa dạng các nội dung, toàn bộ sẽ chọn lọc và xác minh kỹ càng trước khi đưa đến bạn đọc nên đảm bảo về độ chính xác, tin cậy. Trang luôn cập nhật những thông tin mới về điểm đến, sự kiện, khách sạn, điểm vui chơi, ăn uống, … đáp ứng kịp thời xu hướng xu lịch trong thời đại mới. Trên tour du lịch có mục liên hệ, du khách chỉ cần click chuột sẽ được tư vấn, hỗ trợ nhiệt tình, dù bạn là ai hay ở bất cứ đâu chúng tôi đều đảm bảo tư vấn nhiệt tình, mang đến kiến trúc bổ ích, tiết kiệm. </p>
+			</div>
+			<div class="col-sm-6">
+				<p class="advertise">
+					<img src="/img/about.jpg" alt="" class="img-responsive">
+				</p>
+			</div>
+		</div>
+		<!-- End row -->
+		<hr>
+
+		<div class="main_title_2">
+			<h3>Các <span>Tính năng </span>nổi bật</h3>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="box_features">
+					<i class="icon_set_1_icon-89"></i>
+					<h4>Hỗ trợ tốt</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="box_features">
+					<i class="icon_set_1_icon-61"></i>
+					<h4>Sử dụng nhiều ngôn ngữ</h4>
+				</div>
+			</div>
+		</div>
+		<!-- End row -->
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="box_features">
+					<i class="icon_set_1_icon-13"></i>
+					<h4>Dịch vụ chăm sóc khác hàng tốt</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="box_features">
+					<i class="icon_set_1_icon-63"></i>
+					<h4>Sử dụng được đa nền tảng</h4>
+				</div>
+			</div>
+		</div>
+		<!-- End row -->
+
+		<hr>
+		</div>
+		<!--End Team Carousel-->
+
+	</div>
+	<!-- End container -->
+</section>
+<!-- End section -->
+<!-- end container -->
+<!-- COMMON SCRIPTS -->
+<script src="~/js/jquery-2.2.4.min.js"></script>
+<script src="~/js/common_scripts_min.js"></script>
+<script src="~/assets/validate.js"></script>
+<script src="~/js/jquery.tweet.min.js"></script>
+<script src="~/js/functions.js"></script>
+
+<!-- SPECIFIC SCRIPTS -->
+<script>
+	'use strict';
+	$(".team-carousel").owlCarousel({
+		items: 1,
+		loop: true,
+		margin: 10,
+		autoplay: false,
+		smartSpeed: 300,
+		responsiveClass: false,
+		responsive: {
+			320: {
+				items: 1,
+			},
+			768: {
+				items: 2,
+			},
+			1000: {
+				items: 3,
+			}
+		}
+	});
+</script>

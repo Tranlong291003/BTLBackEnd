@@ -1,0 +1,131 @@
+﻿@model Shop.Model.Entities.User;
+@{
+    ViewData["Title"] = "Login";
+    Layout = null;
+}
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Modernize Free</title>
+	<link rel="shortcut icon" type="image/png" href="~/admin/assets/images/logos/favicon.png" />
+	<link rel="stylesheet" href="~/admin/assets/css/styles.min.css" />
+</head>
+
+<body>
+	<!--  Body Wrapper -->
+	<div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+		 data-sidebar-position="fixed" data-header-position="fixed">
+		<div class="position-relative overflow-hidden radial-gradient min-vh-100 d-flex align-items-center justify-content-center">
+			<div class="d-flex align-items-center justify-content-center w-100">
+				<div class="row justify-content-center w-100">
+					<div class="col-md-8 col-lg-6 col-xxl-3">
+						<div class="card mb-0">
+							<div class="card-body">
+								<a href="" class="text-nowrap logo-img text-center d-block py-3 w-100">
+									<img src="~/admin/assets/images/logos/dark-logo.svg" width="180" alt="">
+								</a>
+								<p class="text-center">Chào mừng bạn đến với trang quảng trị</p>
+								<p class="text-center">Vui lòng nhập Tài khoản mà bạn đã được cung cấp</p>
+								@using (Html.BeginForm("Login", "Access", FormMethod.Post))
+								{
+									<form class="p-3 mt-3" style="max-width: 30px;">
+										<div class="form-group">
+											@Html.LabelFor(x => x.Username, new { @class = "label-control" })
+											@Html.TextBoxFor(x => x.Username, new { @class = "form-control" })
+											@Html.ValidationMessageFor(x => x.Username)
+										</div>
+										<div class="form-group">
+											@Html.LabelFor(x => x.Password, new { @class = "label-control" })
+											@Html.PasswordFor(x => x.Password, new { @class = "form-control" })
+											@Html.ValidationMessageFor(x => x.Password)
+										</div>
+										<br>
+										<button class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2" type="submit">Đăng nhập</button>
+									</form>
+								}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="~/admin/assets/libs/jquery/dist/jquery.min.js"></script>
+	<script src="~/admin/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+@*<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Responsive Admin &amp; Dashboard Template based on Bootstrap 5">
+	<meta name="author" content="AdminKit">
+	<meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="shortcut icon" href="~/admin/img/icons/icon-48x48.png" />
+
+	<link rel="canonical" href="https://demo-basic.adminkit.io/pages-sign-in.html" />
+
+	<title>Đăng nhập | Admin</title>
+
+	<link href="~/admin/css/app.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<main class="d-flex w-100">
+		<div class="container d-flex flex-column">
+			<div class="row vh-100">
+				<div class="col-sm-10 col-md-8 col-lg-6 mx-auto d-table h-100">
+					<div class="d-table-cell align-middle">
+                        <h1><center><b>Đăng nhập</b></center></h1>
+						<div class="card">
+							<div class="card-body">
+								<div class="m-sm-4">
+									@using (Html.BeginForm("Login", "Access", FormMethod.Post))
+									{
+										<form class="p-3 mt-3" style="max-width: 30px;">
+											<div class="form-group">
+												@Html.LabelFor(x => x.Username, new { @class = "label-control" })
+												@Html.TextBoxFor(x => x.Username, new { @class = "form-control" })
+												@Html.ValidationMessageFor(x => x.Username)
+											</div>
+											<div class="form-group">
+												@Html.LabelFor(x => x.Password, new { @class = "label-control" })
+												@Html.PasswordFor(x => x.Password, new { @class = "form-control" })
+												@Html.ValidationMessageFor(x => x.Password)
+											</div>
+											<button class="btn btn-primary mt-3" type="submit">Đăng nhập</button>
+										</form>
+									}
+									
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<script src="~/admin/js/app.js"></script>
+
+</body>
+
+</html>
+
+
+
+*@

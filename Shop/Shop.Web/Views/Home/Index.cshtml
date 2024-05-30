@@ -1,0 +1,171 @@
+﻿@model Tuple<List<Shop.Model.Entities.Product>, List<Shop.Model.Entities.Product>,List<Shop.Model.Entities.Product>,List<Shop.Model.Entities.Post>>
+<section class="header-video">
+	<div id="hero_video">
+		<div id="animate_intro">
+			<h3>
+				Tận hưởng chuyến du lịch hoàn hảo
+			</h3>
+			<p>
+				Tìm các tour du lịch và du ngoạn tốt nhất với giá tốt nhất
+			</p>
+		</div>
+	</div>
+	<img src="img/video_fix.png" alt="" class="header-video--media" data-video-src="/video/intro1" data-teaser-source="/video/intro1" data-provider="" data-video-width="1920" data-video-height="750">
+</section>
+
+
+<section class="wrapper">
+	<div class="divider_border"></div>
+
+	<div class="container">
+
+		<div class="main_title">
+			<h2>chúng tôi <span>Đứng đầu</span> về Du lịch</h2>
+			<p>với mong muốn đem đến trải nghiệm tốt nhất cho khách hàng</p>
+		</div>
+		<div class="row">
+			@foreach (var item in Model.Item1)
+			{
+
+				<div class="col-md-4 col-sm-6 wow fadeIn animated" data-wow-delay="0.2s">
+					<div class="img_wrapper">
+						<div class="ribbon">
+							<span>Phổ biến</span>
+						</div>
+						<div class="price_grid">
+							<sup>@item.Price VND</sup>
+						</div>
+						<div class="img_container">
+								<a onclick="location .href='/Home/ProductDetails/@item.Id'">
+								<img src="~/img/@item.Image" width="800" height="533" class="img-responsive" alt="">
+								<div class="short_info">
+									<h3>@item.Name</h3>
+									<em>@item.Day ngày</em>
+									<div class="score_wp">
+										Đánh Giá
+												<div class="score">@item.Evaluate⭐</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+
+			}
+		</div>
+		<!-- End row -->
+
+		<div class="main_title_2">
+			<h3>Đứng đầu <span>Chất Lượng</span> về du lịch</h3>
+			<p>với mong muốn đem đến trải nghiệm tốt nhất cho khách hàng</p>
+		</div>
+		<div class="row list_tours">
+			<div class="col-sm-6">
+				<h3>Tour mới</h3>
+				<ul>
+					@foreach (var item in Model.Item2)
+					{
+							<li>
+								<div>
+									<a onclick="location .href='/Home/ProductDetails/@item.Id'">
+										<figure>
+											<img src="~/img/@item.Image" alt="thumb" class="img-rounded" width="60" height="60">
+										</figure>
+										<h4>@item.Name</h4>
+										<small>@item.Day ngày</small>
+										<span class="price_list">@item.Price VND</span>
+									</a>
+								</div>
+							</li>
+					}
+				</ul>
+			</div>
+
+			<div class="col-sm-6">
+				<h3>Giảm giá</h3>
+				<ul>
+					@foreach (var item in Model.Item3)
+					{
+							<li>
+							<div>
+										<a onclick="location .href='/Home/ProductDetails/@item.Id'">
+									<figure>
+										<img src="~/img/@item.Image" alt="thumb" class="img-rounded" width="60" height="60">
+									</figure>
+									<h4>@item.Name</h4>
+									<small>@item.Day Ngày</small>
+									<span class="price_list"><em>@item.Price VND</em>@item.Promotion VND</span>
+								</a>
+							</div>
+						</li>
+					}
+				</ul>
+			</div>
+			<div class="main_title">
+				<h2>chúng tôi <span>Đứng đầu</span> về Dịch vụ</h2>
+				<p>với mong muốn đem đến trải nghiệm tốt nhất cho khách hàng</p>
+			</div>
+			<div class="row">
+				@foreach (var item in Model.Item4)
+				{
+
+					<div class="col-md-4 col-sm-6 wow fadeIn animated" data-wow-delay="0.2s">
+						<div class="img_wrapper">
+							<div class="ribbon">
+								<span>Phổ biến</span>
+							</div>
+							<div class="img_container">
+								<a onclick="location .href='/Home/PostDetails/@item.Id'">
+									<img src="~/img/@item.Image" width="800" height="533" class="img-responsive" alt="">
+									<div class="short_info">
+										<h3>@item.Name</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+
+				}
+			</div>
+		
+		
+		
+		</div>
+	</div>
+</section>
+<!-- End section -->
+
+
+
+
+<section class="container margin_60">
+		<div class="main_title">
+			<h3>Tại sao chọn BesTours</h3>
+			<p>với mong muốn đem đến trải nghiệm tốt nhất cho khách hàng</p>
+		</div>
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="box_how">
+					<div class="icon_how"><span class="icon_set_1_icon-81"></span>
+					</div>
+					<h4>Đảm bảo giá tốt nhất</h4>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="box_how">
+					<div class="icon_how"><span class="icon_set_1_icon-94"></span>
+					</div>
+					<h4>Hướng dẫn địa phương chuyên nghiệp</h4>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="box_how">
+					<div class="icon_how"><span class="icon_set_1_icon-92"></span>
+					</div>
+					<h4>Giấy chứng nhận xuất sắc</h4>
+				</div>
+			</div>
+		</div>
+		<!-- End Row -->
+	</section>
+	<!-- End Container -->

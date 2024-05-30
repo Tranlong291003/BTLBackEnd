@@ -1,0 +1,44 @@
+﻿@model List<Shop.Model.Entities.Post>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Administrator/Views/Shared/_Layout.cshtml";
+}
+
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-body">
+            <h1><center><b>Danh sách bài viết </b></center></h1>
+            <a href="/Administrator/Post/Create" class="btn btn-primary mb-2">Thêm mới</a>
+            <table id="myTable" class="table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Tên bài viết</th>
+                        <th>Ảnh</th>
+                        <th>Mô tả</th>
+                        <th>Content</th>
+                      @*  <th>Trạng thái</th>*@
+                        <th>Chức Năng</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.Name</td>
+                            <td>@item.Image</td>
+                            <th>@item.Description</th>
+                            <th>@item.Content</th>
+                           @* <th>@item.Status</th>*@
+                        <td>
+                                <a href="/Administrator/Post/Edit/@item.Id"><i class="bi bi-brush-fill">Sửa</i></a>
+                                <a href="/Administrator/Post/Delete/@item.Id" onclick="return confirm('Bạn có chắc muốn xóa loại này không ?');"><i class="bi bi-basket-fill">Xóa</i></a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

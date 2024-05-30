@@ -1,0 +1,71 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="6.0.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shop.Model\Shop.Model.csproj" />
+    <ProjectReference Include="..\Shop.Repository\Shop.Repository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Administrator\Data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\admin\css\app.css.map" />
+    <None Include="wwwroot\admin\fonts\.gitkeep" />
+    <None Include="wwwroot\admin\js\app.js" />
+    <None Include="wwwroot\admin\js\app.js.map" />
+    <None Include="wwwroot\js\.DS_Store" />
+    <None Include="wwwroot\js\bootstrap-datepicker.js" />
+    <None Include="wwwroot\js\bootstrap.js" />
+    <None Include="wwwroot\js\bootstrap.min.js" />
+    <None Include="wwwroot\js\common_scripts_min.js" />
+    <None Include="wwwroot\js\countdown.js" />
+    <None Include="wwwroot\js\dangnhap.js" />
+    <None Include="wwwroot\js\functions.js" />
+    <None Include="wwwroot\js\html5shiv.min.js" />
+    <None Include="wwwroot\js\infobox.js" />
+    <None Include="wwwroot\js\jquery-2.2.4.min.js" />
+    <None Include="wwwroot\js\jquery.bxslider.min.js" />
+    <None Include="wwwroot\js\jquery.cookiebar.js" />
+    <None Include="wwwroot\js\jquery.magnific-popup.js" />
+    <None Include="wwwroot\js\jquery.magnific-popup.min.js" />
+    <None Include="wwwroot\js\jquery.selectbox-0.2.js" />
+    <None Include="wwwroot\js\jquery.tweet.js" />
+    <None Include="wwwroot\js\jquery.tweet.min.js" />
+    <None Include="wwwroot\js\main.js" />
+    <None Include="wwwroot\js\map.js" />
+    <None Include="wwwroot\js\mapmarker.jquery.js" />
+    <None Include="wwwroot\js\mapmarker_func.jquery.js" />
+    <None Include="wwwroot\js\modernizr.js" />
+    <None Include="wwwroot\js\owl.carousel.js" />
+    <None Include="wwwroot\js\owl.carousel.min.js" />
+    <None Include="wwwroot\js\parallax.min.js" />
+    <None Include="wwwroot\js\pop_up.js" />
+    <None Include="wwwroot\js\pop_up.min.js" />
+    <None Include="wwwroot\js\pop_up_func.js" />
+    <None Include="wwwroot\js\respond.min.js" />
+    <None Include="wwwroot\js\retina-replace.js" />
+    <None Include="wwwroot\js\retina-replace.min.js" />
+    <None Include="wwwroot\js\sidebar_carousel_detail_page_func.js" />
+    <None Include="wwwroot\js\signup.js" />
+    <None Include="wwwroot\js\video_header.js" />
+    <None Include="wwwroot\js\wow.js" />
+    <None Include="wwwroot\js\wow.min.js" />
+    <None Include="wwwroot\video\.DS_Store" />
+    <None Include="wwwroot\video\intro.ogv" />
+  </ItemGroup>
+
+</Project>

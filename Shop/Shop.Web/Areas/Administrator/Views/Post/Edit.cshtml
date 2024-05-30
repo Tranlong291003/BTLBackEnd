@@ -1,0 +1,45 @@
+﻿@model Shop.Model.Entities.Post
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Administrator/Views/Shared/_Layout.cshtml";
+}
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-body">
+            <h1><center><b>Sửa bài viết</b></center></h1>
+            <form action="/Administrator/Post/Edit" method="post" class="row g-3">
+                <div class="col-12">
+                    <label asp-for="Id" class="form-label">ID</label>
+                    <input asp-for="Id" class="form-control" value ="@Model.Id"/>
+                </div>
+                <div class="col-12">
+                    <label asp-for="Name" class="form-label">Tên bài viết</label>
+                    <input asp-for="Name" class="form-control" value="@Model.Name" />
+                </div> 
+                <div class="col-12">
+                    <label asp-for="Image" class="form-label">Ảnh</label>
+                    <input asp-for="Image" class="form-control" value="@Model.Image" />
+                </div>
+                <div class="col-12">
+                    <label asp-for="Description" class="form-label">Mô tả</label>
+                    <input asp-for="Description" class="form-control" value="@Model.Description" />
+                </div>
+                <div class="col-12">
+                    <label asp-for="Content" class="form-label">Content</label>
+                    <textarea id="Content" name="Content"></textarea>
+                </div>
+           @*     <div class="col-12">
+                    <label asp-for="Status" class="form-label" style="text-indent">trạng thái</label>
+                    <input asp-for="Status" class="form-control" type="text" value="@Model.Status"/>
+                </div>*@
+                <script>
+                    CKEDITOR.replace('Content');
+                </script>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Cập nhật</button>
+                    <button type="reset" class="btn btn-secondary">Hủy</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
